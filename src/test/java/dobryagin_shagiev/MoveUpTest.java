@@ -36,6 +36,7 @@ public class MoveUpTest {
     assertEquals(0, elements.size());
 
     js.executeScript("window.scrollTo(0,10000)");
+    Thread.sleep(1000);
     elements = driver.findElements(By.xpath("//header[contains(@class, 'header_collapsed')]"));
     assertEquals(1, elements.size());
 
