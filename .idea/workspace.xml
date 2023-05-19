@@ -4,27 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7def752b-d720-41e9-a6b8-345cb408793d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dobryagin_shagiev/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dobryagin_shagiev/AuthorizationFailTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dobryagin_shagiev/AuthorizationSuccessTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dobryagin_shagiev/ReactionPlusOnPostTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dobryagin_shagiev/ReactionsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dobryagin_shagiev/SubscribeTest.java" afterDir="false" />
+    <list default="true" id="7def752b-d720-41e9-a6b8-345cb408793d" name="Changes" comment="qwer">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dobryagin_shagiev/AuthorizationSuccessTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dobryagin_shagiev/AuthorizationSuccessTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dobryagin_shagiev/EmotionsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dobryagin_shagiev/ReactionPlusOnPostTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dobryagin_shagiev/ReactionsTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,10 +56,14 @@
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "C:/Users/sshagiev/tpo3/src/test/java/dobryagin_shagiev",
     "settings.editor.selected.configurable": "File.Encoding"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sshagiev\tpo3\src\test\java\dobryagin_shagiev" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\sshagiev\tpo3\src\test\java" />
     </key>
@@ -85,8 +74,8 @@
       <recent name="shagiev" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.AuthorizationSuccessTest.reactionOnPost">
-    <configuration name="AuthorizationSuccessTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.AuthorizationSuccessTest.subscribe">
+    <configuration name="AuthorizationSuccessTest.emotionsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -99,7 +88,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;dobryagin_shagiev.AuthorizationSuccessTest&quot;" />
+            <option value="&quot;dobryagin_shagiev.AuthorizationSuccessTest.emotionsTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -155,7 +144,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ReactionOnPostTest.reactionOnPost" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AuthorizationSuccessTest.reactions" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -168,7 +157,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;dobryagin_shagiev.ReactionOnPostTest.reactionOnPost&quot;" />
+            <option value="&quot;dobryagin_shagiev.AuthorizationSuccessTest.reactions&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -178,7 +167,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ReactionPlusOnPostTest.reactionOnPost" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AuthorizationSuccessTest.subscribe" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -191,7 +180,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;dobryagin_shagiev.ReactionPlusOnPostTest.reactionOnPost&quot;" />
+            <option value="&quot;dobryagin_shagiev.AuthorizationSuccessTest.subscribe&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -203,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.AuthorizationSuccessTest.subscribe" />
+        <item itemvalue="Gradle.AuthorizationSuccessTest.reactions" />
+        <item itemvalue="Gradle.AuthorizationSuccessTest.emotionsTest" />
         <item itemvalue="Gradle.AuthorizationSuccessTest.reactionOnPost" />
         <item itemvalue="Gradle.AuthorizationSuccessTest.reactionPlusOnPost" />
-        <item itemvalue="Gradle.AuthorizationSuccessTest" />
-        <item itemvalue="Gradle.ReactionPlusOnPostTest.reactionOnPost" />
-        <item itemvalue="Gradle.ReactionOnPostTest.reactionOnPost" />
       </list>
     </recent_temporary>
   </component>
@@ -220,8 +209,16 @@
       <option name="presentableId" value="Default" />
       <updated>1684441007559</updated>
       <workItem from="1684441009340" duration="662000" />
-      <workItem from="1684482245523" duration="5855000" />
+      <workItem from="1684482245523" duration="7212000" />
     </task>
+    <task id="LOCAL-00001" summary="qwer">
+      <created>1684488463886</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684488463886</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,6 +235,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="qwer" />
+    <option name="LAST_COMMIT_MESSAGE" value="qwer" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -248,8 +249,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/dobryagin_shagiev/AuthorizationSuccessTest.java</url>
-          <line>73</line>
+          <line>83</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/dobryagin_shagiev/AuthorizationSuccessTest.java</url>
+          <line>132</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
